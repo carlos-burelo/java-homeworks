@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    // java extension pack
+    "vscjava.vscode-java-pack"
+  ]
+}
