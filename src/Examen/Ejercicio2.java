@@ -4,9 +4,9 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio2 {
   public static void main(String[] args) {
-    int numero1 = input("Ingrese e primer numero");
-    int numero2 = input("Ingrese e segundo numero");
-    if (numero2 == 0) {
+    int numero1 = input("Ingrese el primer numero");
+    int numero2 = input("Ingrese el segundo numero");
+    if (numero1 == 0) {
       print("El divisor no puede ser 0");
     } else {
       print("El resultado de la operacion es: " + numero1 / numero2);
