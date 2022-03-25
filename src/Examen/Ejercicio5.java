@@ -12,7 +12,6 @@ public record Ejercicio5() {
       print("El alumno ha reprobado con: " + promedio);
     else
       print("El alumno ha aprobado: " + promedio);
-
   }
 
   public static int input(String message) {

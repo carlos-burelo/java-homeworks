@@ -4,9 +4,9 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio3 {
   public static void main(String[] args) {
-    int hours = Integer.parseInt(input("Ingrese una hora"));
-    int minutes = Integer.parseInt(input("Ingrese los minutos"));
-    int seconds = Integer.parseInt(input("Ingrese los segundos"));
+    int hours = input("Ingrese una hora");
+    int minutes = input("Ingrese los minutos");
+    int seconds = input("Ingrese los segundos");
     if (hours > 23 || hours < 1) {
       print("El formato de hora no es valida");
     } else if (minutes < 0 || minutes > 59)
@@ -18,8 +18,8 @@ public class Ejercicio3 {
     }
   }
 
-  public static String input(String message) {
-    return JOptionPane.showInputDialog(null, message);
+  public static int input(String message) {
+    return Integer.parseInt(JOptionPane.showInputDialog(null, message));
   }
 
   public static void print(String message) {

@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio4 {
   public static void main(String[] args) {
-    int mes = Integer.parseInt(input("Ingrese el numero del mes"));
+    int mes = input("Ingrese el numero del mes");
     if (mes >= 1 && mes <= 12) {
       switch (mes) {
         case 1:
@@ -49,8 +49,8 @@ public class Ejercicio4 {
     }
   }
 
-  public static String input(String message) {
-    return JOptionPane.showInputDialog(null, message);
+  public static int input(String message) {
+    return Integer.parseInt(JOptionPane.showInputDialog(null, message));
   }
 
   public static void print(String message) {
