@@ -1,3 +1,4 @@
+package FirstParcial;
 
 /**
   hacer un programa que pida un numerod del 1 al 7

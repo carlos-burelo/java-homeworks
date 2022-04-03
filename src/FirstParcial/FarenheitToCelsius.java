@@ -1,17 +1,20 @@
+package FirstParcial;
+
 /**
     Realizar un programa en java que obtenga un numero
     y lo trasnforme a farenheit y a celsius dependiendo
     de la escala que se elija.
  */
 import javax.swing.JOptionPane;
+
 /**
-  @author Carlos Burelo
+ * @author Carlos Burelo
  */
 public class FarenheitToCelsius {
     public static void main(String[] args) {
         String[] options = {
-            "Celsius a Farenheit",
-            "Farenheit a Celsius"
+                "Celsius a Farenheit",
+                "Farenheit a Celsius"
         };
         int type = JOptionPane.showOptionDialog(null, "Seleccione una opción", "Conversor de temperaturas",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);

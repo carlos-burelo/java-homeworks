@@ -1,10 +1,13 @@
+package FirstParcial;
+
 /**
   Realizar un programa quen java que lea un numero y compruebe
   si el numero es mayor o igual a 18 y muestre un mensaje.
   */
 import javax.swing.JOptionPane;
+
 /**
-  @author Carlos Burelo
+ * @author Carlos Burelo
  */
 public class IsOlder {
   public static void main(String[] args) {

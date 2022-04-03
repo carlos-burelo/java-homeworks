@@ -1,3 +1,4 @@
+package FirstParcial;
 
 /** 
   Lo mismo de arriba,que lea un entero de 3 cifras y muestre por

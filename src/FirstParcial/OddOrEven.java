@@ -1,3 +1,4 @@
+package FirstParcial;
 
 /**
   Realizar un programa en java que lea un numero entero y muestre

@@ -1,3 +1,4 @@
+package FirstParcial;
 
 /**
  Realizar un programa que reciba 3 numeros enteros y muestre

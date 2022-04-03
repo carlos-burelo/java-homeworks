@@ -1,3 +1,5 @@
+package FirstParcial;
+
 /* 
   Escribe un programa en java que lea un nuero entero de 5 cifras
   y muestre sus cifras de la siguiente manera
@@ -8,8 +10,9 @@
   1 2 3 4 5
 */
 import javax.swing.JOptionPane;
+
 /**
-  @author Carlos Burelo
+ * @author Carlos Burelo
  */
 public class FiveCifresReverse {
   public static void main(String[] args) {

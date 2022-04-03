@@ -1,3 +1,4 @@
+package FirstParcial;
 
 /**
   Realizar un programa en java que reciba 2 numeros y 

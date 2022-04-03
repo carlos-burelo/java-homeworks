@@ -1,7 +1,9 @@
+package FirstParcial;
+
 import javax.swing.JOptionPane;
 
 /**
-  @author Carlos Burelo
+ * @author Carlos Burelo
  */
 public class DivideNumbers {
   public static void main(String[] args) {

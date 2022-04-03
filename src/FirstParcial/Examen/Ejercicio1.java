@@ -1,4 +1,4 @@
-package Examen;
+package FirstParcial.Examen;
 
 import javax.swing.JOptionPane;
 

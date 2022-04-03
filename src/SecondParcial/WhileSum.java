@@ -1,16 +1,16 @@
-package Examen;
+package SecondParcial;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio2 {
+public class WhileSum {
   public static void main(String[] args) {
-    int numero1 = input("Ingrese el primer numero");
-    int numero2 = input("Ingrese el segundo numero");
-    if (numero1 == 0) {
-      print("El divisor no puede ser 0");
-    } else {
-      print("El resultado de la operacion es: " + numero1 / numero2);
-    }
+    int suma = 1;
+    int numero = input("Ingrese un numero");
+    do {
+      suma += numero;
+      numero--;
+    } while (1 < numero);
+    print("La suma total es: " + suma);
   }
 
   public static int input(String message) {
