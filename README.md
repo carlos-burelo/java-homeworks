@@ -30,6 +30,8 @@
 
 ## [Segundo Parcial (orden desconocido)](./src/SecondParcial/)
 
+s
+
 1. [DoWhileNumbers](./src/SecondParcial/DoWhileNumbers.java)
 2. [Factorial](./src/SecondParcial/Factorial.java)
 3. [ForFactorial](./src/SecondParcial/ForFactorial.java)
@@ -38,3 +40,9 @@
 6. [WhileNums](./src/SecondParcial/WhileNums.java)
 7. [WhileOddEven](./src/SecondParcial/WhileOddEven.java)
 8. [WhileSum](./src/SecondParcial/WhileSum.java)
+9. [MultiplicationTable](./src/SecondParcial/MutiplicationTable.java) - orden correcto
+10. [WhileTwoNumbers](./src/SecondParcial/WhileTwoNumbers.java) - orden correcto
+11. [OddEvenBeetwenTwoNumbers](./src/SecondParcial/OddEvenBeetwenTwoNumbers.java) - orden correcto
+12. [Fibonacci](./src/SecondParcial/Fibonacci.java) - orden correcto
+13. [FibonacciFn](./src/SecondParcial/FibonacciFn.java) - orden correcto
+14. [FactorialFn](./src/SecondParcial/FactorialFn.java) - orden correcto
