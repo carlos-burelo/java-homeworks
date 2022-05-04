@@ -17,7 +17,7 @@ realizar un programa que capture el factorial de n numero utilizando el ciclo fo
 // realzar un programa utilizando el ciclo for que pida escribir un numero entre el 1 y el 10
 // y que a continuacion muestre la tabla de multiplocacion de dicho numero
 
-// realizar un programa java que lea una serie de  numeros por teclado
+// realizar un programa java que lea una serie de numeros por teclado
 // hasta que se lea un numero negativo. El programa debe indicar cuantos numeros acabados en 2
 // seran leidos. con el ciclo while
 
@@ -29,3 +29,20 @@ realizar un programa que capture el factorial de n numero utilizando el ciclo fo
 // fibonacci
 // suma
 // y factorial en funciones
+
+// realizar un programa que pida escribir 2 numeros desde teclado y que como resultado
+// muestre el valor obtenido de suma, la resta, la multiplicacion, la division, de dichos numeros, implementando un metodo para cada operacion.
+
+[37]
+realizar un programa en java que nos calcule el area de un circulo, cuadrado o triangulo, pediremos que figura queremos calcular su area y segun lo introdicido pedira los valores para cualquier area.
+Crea un metodo para cada figura para calcular su area.
+
+[TAREA]
+realizar un programa que convierta un numero en base decimal a su equivalente en binario, octal y hexadecimal
+esto lo reaalizara un metodo al que le pasaremos un numero como parametro y debera devolver un string con el numero convertido a
+
+num(10) // menu
+
+- Binario
+- Octal
+- Hexadecimal

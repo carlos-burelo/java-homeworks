@@ -46,3 +46,7 @@ s
 12. [Fibonacci](./src/SecondParcial/Fibonacci.java) - orden correcto
 13. [FibonacciFn](./src/SecondParcial/FibonacciFn.java) - orden correcto
 14. [FactorialFn](./src/SecondParcial/FactorialFn.java) - orden correcto
+15. [SumaFn](./src/SecondParcial/FactorialFn.java) - orden correcto
+16. [AñoBisiesto](./src/SecondParcial/) - Pendiente c
+17. [Table](./src/SecondParcial/Table.java)
+18. [BinaryFn](./src/SecondParcial/BinaryFn.java)
