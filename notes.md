@@ -46,3 +46,7 @@ num(10) // menu
 - Binario
 - Octal
 - Hexadecimal
+
+[38]
+
+Realizar un programa en java que nos pida un numero por teclado e implemente un metodo al cual le pasaremos dicho numero por parametro para que nos indique si es o no un numero primo, debe devolver verdadero si es primo y falso si no lo es.

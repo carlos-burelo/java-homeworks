@@ -14,6 +14,7 @@ public class WhileTwoNumbers {
       number = input("Ingrese un nuevo numero");
     }
     print("Se ingresaron " + counter + " que acaban en 2");
+
   }
 
   public static int input(String message) {

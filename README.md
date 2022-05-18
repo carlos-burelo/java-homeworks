@@ -30,8 +30,6 @@
 
 ## [Segundo Parcial (orden desconocido)](./src/SecondParcial/)
 
-s
-
 1. [DoWhileNumbers](./src/SecondParcial/DoWhileNumbers.java)
 2. [Factorial](./src/SecondParcial/Factorial.java)
 3. [ForFactorial](./src/SecondParcial/ForFactorial.java)
@@ -50,3 +48,11 @@ s
 16. [AñoBisiesto](./src/SecondParcial/) - Pendiente c
 17. [Table](./src/SecondParcial/Table.java)
 18. [BinaryFn](./src/SecondParcial/BinaryFn.java)
+
+## [Examen Parcial](./src/SecondParcial/Examen/)
+
+1. [Ejercicio 1](./src/SecondParcial/Examen/Ejercicio1.java)
+2. [Ejercicio 2](./src/SecondParcial/Examen/Ejercicio2.java)
+3. [Ejercicio 3](./src/SecondParcial/Examen/Ejercicio3.java)
+4. [Ejercicio 4](./src/SecondParcial/Examen/Ejercicio4.java)
+5. [Ejercicio 5](./src/SecondParcial/Examen/Ejercicio5.java)
