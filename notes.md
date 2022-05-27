@@ -50,3 +50,10 @@ num(10) // menu
 [38]
 
 Realizar un programa en java que nos pida un numero por teclado e implemente un metodo al cual le pasaremos dicho numero por parametro para que nos indique si es o no un numero primo, debe devolver verdadero si es primo y falso si no lo es.
+
+
+escribit un progrtama en java quw pida introducir desde teclado una cadena de texto y que muestre como resultado el numero de caracteres que tiene dicha cadena     o
+
+[46]
+realizar un programa que solicite ingresar un texto desde teclado y que muestre como resultado que letras
+no han aparecido en el texto
