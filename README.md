@@ -56,3 +56,11 @@
 3. [Ejercicio 3](./src/SecondParcial/Examen/Ejercicio3.java)
 4. [Ejercicio 4](./src/SecondParcial/Examen/Ejercicio4.java)
 5. [Ejercicio 5](./src/SecondParcial/Examen/Ejercicio5.java)
+
+## [Tercer Parcial](./src/ThirdParcial/)
+
+1. [MoreLarge](./src/ThirdParcial/MoreLarge.java)
+2. [StringLength](./src/ThirdParcial/StringLength.java)
+3. [StringInverted](./src/ThirdParcial/StringInverted.java)
+4. [OmitedChar](./src/ThirdParcial/OmitedChar.java)
+5. [BufferRead](./src/ThirdParcial/BufferRead.java)
