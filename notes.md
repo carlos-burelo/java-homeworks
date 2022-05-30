@@ -57,3 +57,13 @@ escribit un progrtama en java quw pida introducir desde teclado una cadena de te
 [46]
 realizar un programa que solicite ingresar un texto desde teclado y que muestre como resultado que letras
 no han aparecido en el texto
+
+[]
+Realizar un programa que pida ingresar desde teclado una cadena de caracteres y como resultado debe de de terminar cuantas palabras se encuentran en dicha cadena, cada palabra se separa en un espacio en blanco
+
+[]
+realizar un programa que la recibir como entrada 2 cadenas de caracteres y que muestre como resultado, una tercera cadena de caracteres intercalando los caracteeres de las 2 primeras cadenas
+
+1. hola
+2. mundo
+R = 3. hmoulnado
