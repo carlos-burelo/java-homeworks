@@ -1,0 +1,78 @@
+Elaborar un programa para leer el nombre, la cantidad y el precio de un determinado número de productos de una tienda de autoservicio y manipular las siguientes opciones, a través de un menú.
+1. Insertar datos.
+2. Listar datos.
+3. Modificar precio
+4. Consultar producto
+5. Entrada de producto
+6. Salida de producto
+7. Inventario
+Salir
+
+Opciones:
+1.       Esta opción permite insertar datos. (nombre, precio y cantidad)
+2.       Esta opción debe imprimir los datos incluyendo el total.
+3.       Esta opción debe permitir modificar el precio.
+4.       Esta opción envía la cantidad y el precio de un producto en específico. Ejemplo
+            Mayonesa 300 grs Cantidad 45, precio $32.000
+5.       Esta opción modifica la cantidad de un producto específico sumando una cantidad determinada.
+6.       Esta opción modifica la cantidad de un producto específico restando una cantidad determinada, siempre y cuando esa cantidad no sea mayor al número de los productos existentes.
+7.       Esta opción me muestra el total de todos los productos, tomando el ejemplo anterior sería. 365 productos que equivales a $9,730.00
+
+Ejemplo:
+No
+Nombre
+Cantidad
+Precio
+Total
+1
+Atún
+50
+ $       21.00
+ $  1,050.00
+2
+Jabón Ariel 1 kg
+40
+ $       50.00
+ $  2,000.00
+3
+Mayonesa 300 grs
+45
+ $       32.00
+ $  1,440.00
+4
+Jabón Escudo 200 grs
+70
+ $       18.00
+ $  1,260.00
+5
+Café Decaf 300 grs
+20
+ $       55.00
+ $  1,100.00
+6
+Frijol Valle verde 1 kg
+80
+ $       18.00
+ $  1,440.00
+..
+Leche alpura 1 litro
+60
+ $       24.00
+ $  1,440.00
+..
+ 
+ 
+ 
+ 
+..
+ 
+ 
+ 
+ 
+N
+ 
+ 
+ 365
+Total
+ $  9,730.00
+ 

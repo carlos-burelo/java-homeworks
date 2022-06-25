@@ -67,3 +67,30 @@ realizar un programa que la recibir como entrada 2 cadenas de caracteres y que m
 1. hola
 2. mundo
 R = 3. hmoulnado
+
+[]
+investigar y traer un ejemplo de las operaciones que se pueden realizar con los arreglos.
+
+[]
+Realizar un programa en java que lea por teclado la nota de los alumnos de una clase y calcule la media, y muestre cuantos alumnos tienen notas mayor que la media. El numero de alumnos debe de ser introducido por teclado tambien.
+
+[]
+Realizar un programa en java que guarde en un arreglo 10 numeros enteros que leen desde teclado y que muestre como resultado cuantos numero positivos, negativos, 0 tiene  el arreglo
+
+[51]
+Realizar un programa en java que lea 10 numeros enteros por teclado y los guarde en un arreglo
+y que como resultado muestre la media de los numeros que estan en las posiciones *par* del arreglo y tambien
+
+[]
+Realizar un programa en java que pida introducir los datos de una matriz de 3x3 y que a continuacion muestre como resultado la linea con los datos de la diagonal principal
+
+[53]
+Escribir un programa en java que lea 2 matrices de NxN y que a continuacion, calcule la suma de ellas y como resultado 
+
+[54]
+... lo de siempre..
+en el que declares 3 areglos:
+
+a => debe contener los primeros 10 numero pares (0-20)
+b => los impares (1-19)
+c => intercalando (0-20)

@@ -1,0 +1,24 @@
+Temperaturas y ciudades
+
+nw
+Temperaturas
+Lunes:21.0
+Martes:23.0
+Miercoles:24.0
+Jueves:22.0
+Viernes:33.0
+Sabado:23.0
+Domingo:23.0
+Promedio: 24.14286
+
+aaaaaa
+Temperaturas
+Lunes:23.0
+Martes:12.0
+Miercoles:43.0
+Jueves:21.0
+Viernes:22.0
+Sabado:34.0
+Domingo:43.0
+Promedio: 28.285713
+

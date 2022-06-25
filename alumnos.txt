@@ -1,0 +1,18 @@
+Alumno: FWJW
+Calificaciones:
+1° parcial: 7.0
+2° parcial: 6.0
+3° parcial: 6.0
+Promedio: 6.0
+Examen: 7.0
+Calificacion final: 7.0
+
+Alumno: GAY
+Calificaciones:
+1° parcial: 7.0
+2° parcial: 9.0
+3° parcial: 9.0
+Promedio: 8.0
+Examen: 9.0
+Calificacion final: 9.0
+

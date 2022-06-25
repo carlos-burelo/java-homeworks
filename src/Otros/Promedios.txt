@@ -1,0 +1,88 @@
+-ELABORAR UN PROGRAMA:
+Para leer la calificacion de un grupo de n alumnos, en base a un meno, ejecutar las siguientes acciones.
+-Insertar datos:
+-Listar datos:
+-Lista de reprobados:
+-Modificar calificacion:
+-Grabar:
+-obtener promedios:
+-salir:
+
+| Nombre Alumnos | Parcial | Parcial 2 | Parcial 3 | Examen | Calificacion |
+
+Capturar calificacion, 
+sacar promedio redondeado,
+capturar calificacion del examen pero si el promedio es igual o mayor
+se aplicara para el examen, 
+si no entonces se pedira cuanto saco del examen final.
+
+
+  public static int menuPrincipal() {
+    String mensaje = "1. Ingresar datos\n" +
+        "2. Listar datos\n" +
+        "3. Lista de reprobados\n" +
+        "4. Modificar calificacion\n" +
+        "5. Grabar\n" +
+        "6. Obtener promedios\n" +
+        "7. Salir\n";
+    return entrada(mensaje);
+  }
+
+  public static void insertarAlumno() {
+    for (int i = 0; i < alumnos.length; i++) {
+      if (alumnos[i] == null) {
+        alumnos[i] = JOptionPane.showInputDialog("Ingrese el nombre del alumno\n\n");
+        asignarCalificacion(i, 1); // asigna la calificacion del primer parcial
+        asignarCalificacion(i, 2); // segundo parcial
+        asignarCalificacion(i, 3); // tercer parcial
+        asignarCalificacion(i, 4);// calificacion general
+        break;
+      }
+    }
+  }
+
+  public static void asignarCalificacion(int posicion, int parcial) {
+    String mensaje = "Calificacion del " + parcial + "° de " + alumnos[posicion] + "\n\n";
+    if (parcial == 4)
+      mensaje = "Calificacion final de " + alumnos[posicion] + "\n\n";
+    float calificacion = entradaFloat(mensaje);
+    // repetir un bucle mientras la calificacion no sea valida
+    while (calificacion < 0 || calificacion > 10) {
+      calificacion = entradaFloat("La calificacion debe estar entre 0 y 10\nIngrese nuevamente\n\n");
+    }
+    float[] alumno = calificaciones[posicion];
+    if (parcial == 4)
+      calificacion = Math.round(alumno[0] + alumno[1] + alumno[2] / 0.3f);
+    calificaciones[posicion][parcial - 1] = calificacion;
+  }
+
+  public static void sacarPromedio(int posicion) {
+    for (int i = 0; i < calificaciones.length; i++) {
+      float[] alumno = calificaciones[i];
+      float promedio = alumno[0] + alumno[1] + alumno[2] / 3;
+      System.out.println("El promedio de " + alumnos[i] + " es " + promedio);
+    }
+  }
+
+  public static void listarAlumnos() {
+    String mensaje = "Todos los alumnos\n\n";
+    for (int i = 0; i < alumnos.length; i++) {
+      if (alumnos[i] != null) {
+        mensaje += i + " - " + alumnos[i] + "\n";
+      }
+    }
+    mensaje += "\n\n";
+    mostrar(mensaje);
+  }
+
+  public static int entrada(String message) {
+    return Integer.parseInt(JOptionPane.showInputDialog(null, message));
+  }
+
+  public static float entradaFloat(String message) {
+    return Float.parseFloat(JOptionPane.showInputDialog(null, message));
+  }
+
+  public static void mostrar(String message) {
+    JOptionPane.showMessageDialog(null, message);
+  }
